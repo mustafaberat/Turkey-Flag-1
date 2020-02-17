@@ -1,72 +1,83 @@
-body{
-    height: 50vh;
+body {
+  height: 50vh;
 }
 
-.turkey-flag-title{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin: 10px;
+.turkey-flag-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
 }
 
-.turkey-flag-button{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+.turkey-flag-button {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
-.btn{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    background-color: red;
-    box-shadow: 10px 6px 10px #8c8b8b ;
+.btn {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: #bd0000;
+  box-shadow: 10px 6px 10px #8c8b8b;
 }
 
-.crescent{
-    width: 50%;
-    display: flex;
-    flex-direction: row-reverse;
+.crescent {
+  width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-.crescent-big{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    height: 60px;
-    width: 60px;
-    background-color: white;
-    border-radius: 50%;
+.crescent-big {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  border-radius: 50%;
 }
 
-.crescent-small{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    height: 75%;
-    width: 70%;
-    background-color: red;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: -5px;
+.crescent-small {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 75%;
+  width: 70%;
+  background-color: #bd0000;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: -5px;
 }
 
-.star-icon{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    color: white;
+.star-icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+  margin-right: -10px;
+}
+
+.btn:hover {
+  background-color: red;
+  transition: 0.542s;
+}
+
+.btn:hover .crescent-small {
+  background-color: red;
+  transition: 0.542s;
 }
